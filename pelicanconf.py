@@ -3,7 +3,7 @@ import datetime
 THEME = 'themes/minimal-xy'
 
 # Theme customizations
-MINIMALXY_CUSTOM_CSS = 'content/css/custom.css'
+MINIMALXY_CUSTOM_CSS = 'content/custom.css'
 # MINIMALXY_FAVICON = 'favicon.ico'
 MINIMALXY_START_YEAR = 2023
 MINIMALXY_CURRENT_YEAR = datetime.date.today().year
@@ -27,14 +27,22 @@ SOCIAL = (
 )
 
 # Menu
-# MENUITEMS = (
-#     ('Categories', '/' + CATEGORIES_SAVE_AS),
-#     ('Archive', '/' + ARCHIVES_SAVE_AS),
+MENUITEMS = (
+    ('Home', '/' + 'index.html'),
+    ('Categories', '/' + 'categories.html'),
+    ('Archive', '/' + 'archives.html')
+    )
+
+#     MENUITEMS = (('About', 'about-me/'),
+#                         ('Reading', 'reading/'),
+#                 ('Archive','archives.html'),)
 # )
 
 # Search plugin
-SEARCH_MODE = "source"
-SEARCH_HTML_SELECTOR = "main"
+# SEARCH_MODE = "source"
+# SEARCH_HTML_SELECTOR = "main"
+
+DISPLAY_CATEGORIES_ON_MENU = False
 
 # Base settings
 AUTHOR = 'John Doe'
@@ -69,4 +77,6 @@ DEFAULT_PAGINATION = 10
 #           ('Another social link', '#'),)
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
+REVERSE_ARCHIVE_ORDER = True

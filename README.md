@@ -1,3 +1,16 @@
 # static_blog_template
 
-To preview while developing run `pelican --autoreload --listen`.
+A blog template for Pelican.
+
+## Requirements
+
+- Python ^3.6
+- Poetry
+
+## Setup
+
+`poetry install`
+
+## Preview
+
+`pelican --autoreload --listen`
