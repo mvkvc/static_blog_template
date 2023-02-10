@@ -1,5 +1,7 @@
 # static_blog_template
 
+[![preview](https://github.com/mvkvc/static_blog_template/actions/workflows/preview.yaml/badge.svg?branch=main)](https://github.com/mvkvc/static_blog_template/actions/workflows/preview.yaml)
+
 A blog template for Pelican.
 
 ## Requirements

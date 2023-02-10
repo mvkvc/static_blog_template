@@ -1,10 +1,9 @@
 [tool.poetry]
 name = "static-blog-template"
 version = "0.1.0"
-description = ""
+description = "A blog template for Pelican."
 authors = ["Marko Vukovic <mvkvc.git@gmail.com>"]
 readme = "README.md"
-packages = [{include = "static_blog_template"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
